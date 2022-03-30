@@ -25,7 +25,6 @@ h1{
     padding: 10px;
 }
 
-
 /* =================
 Header Style
 ===================*/
@@ -81,6 +80,35 @@ main section article ul li{
     padding: 1.5% 0 0 0;
 }
 
+#tourDates1::after{
+    content: " - SOLD OUT";
+    color: red;
+}
+
+#tourDates2::after{
+    content: " - SOLD OUT";
+    color: red;
+}
+
+#tourDates3::after{
+    content: " - SOLD OUT";
+    color: red;
+}
+
+#tourDates4::after{
+    content: " - ONLY 4 AVAILABLE";
+    color: red;
+}
+
+#tourDates5::after{
+    content: " - AVAILABLE";
+    color: green;
+}
+
+#tourDates6::after{
+    content: " - AVAILABLE";
+    color: green;
+}
 
 /* =================
 Footer Style
@@ -90,4 +118,9 @@ footer{
     border-top: 1px solid #888;
     text-align: center;
     padding: 2%;
+}
+
+#socialMedia img{
+    width: 50px;
+    padding: 1%;
 }

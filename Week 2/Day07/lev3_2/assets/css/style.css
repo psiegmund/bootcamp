@@ -15,6 +15,7 @@ font-family: 'Open Sans', sans-serif;
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
+    /* box-sizing: border-box; */
 }
 
 h1{
@@ -26,6 +27,57 @@ h2, h3{
     font-family: 'Fredericka the Great', cursive;
 }
 
+.linkWithPadding{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 20px 10px 20px;
+    margin-top: 100px;
+}
+
+.linkWithPadding:visited{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 20px 10px 20px;
+    margin-top: 50px;
+}
+.linkWithPadding:hover{
+    color: black;
+    background: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 20px 10px 20px;
+    margin-top: 50px;
+}
+
+.linkWithPadding:active{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 20px 10px 20px;
+    margin-top: 50px;
+}
+
+.linkForNav{
+    color: white;
+    text-decoration: none;
+}
+
+.linkForNav:visited{
+    color: lightgray;
+    text-decoration: none;
+}
+.linkForNav:hover{
+    color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.linkForNav:active{
+    color: white;
+    text-decoration: none;
+}
 
 /* =========================
          HEADER STYLE
@@ -42,7 +94,7 @@ header section div{
     margin-top: 50px;
 }
 
-header section div a{
+/* header section div a{
     color: white;
     text-decoration: none;
     border: 1px solid white;
@@ -72,9 +124,9 @@ header section div a:active{
     border: 1px solid white;
     padding: 10px 20px 10px 20px;
     margin-top: 50px;
-}
+} */
 
-header div nav ul li a{
+/* header div nav ul li a{
     color: white;
     text-decoration: none;
 }
@@ -92,7 +144,7 @@ header div nav ul li a:hover{
 header div nav ul li a:active{
     color: white;
     text-decoration: none;
-}
+} */
 
 header section{
     text-align: center;
@@ -183,7 +235,7 @@ footer div{
     margin: 50px 0px 0px 20px;
 }
 
-footer div a{
+/* footer div a{
     color: white;
     text-decoration: none;
     border: 1px solid white;
@@ -213,7 +265,7 @@ footer div a:active{
     border: 1px solid white;
     padding: 10px 20px 10px 20px;
     margin-top: 50px;
-}
+} */
 
 footer nav{
     text-align: right;
@@ -222,6 +274,7 @@ footer nav{
     margin: auto 20px 20px auto;
 }
 
+/*
 footer nav a{
     color: white;
     text-decoration: none;
@@ -240,4 +293,4 @@ footer nav a:visited{
 footer nav a:active{
     color: lightgrey;
     font-weight: bold;
-}
+} */
