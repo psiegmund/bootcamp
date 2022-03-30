@@ -1,0 +1,17 @@
+#sectionOne{
+    background: tomato;
+    height: 100vh;
+    text-align: center;
+}
+
+#sectionTwo{
+    background: blue;
+    height: 100vh;
+    text-align: center;
+}
+
+#sectionThree{
+    background: green;
+    height: 100vh;
+    text-align: center;
+}
