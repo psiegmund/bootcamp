@@ -1,0 +1,21 @@
+/* kombinierter Selektor */
+
+p, h1 {
+    color: green;
+}
+
+/* Absteigender Selektor */
+
+section p {
+    background-color: blue;
+    color: whitesmoke;
+}
+
+section > p {
+    background-color: aquamarine;
+    color: brown;
+}
+
+section div > p {
+    font-size: 30px;
+}
