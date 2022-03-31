@@ -1,0 +1,97 @@
+h1 {
+    text-align: center;
+}
+
+/* p::first-line {
+    color: green;
+}
+
+p::first-letter {
+    font-size: 50px;
+    color: chocolate;
+}
+
+p::selection {
+    color:blue;
+    background: rosybrown;
+}
+
+/* ul li::marker{
+    color:pink;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li::before{
+    content: "➡️";
+    padding-right: 10px;
+}
+
+ul li::after{
+    content: "⬅️";
+    padding-left: 10px;
+} */
+
+/* PSEUDO CLASSES */
+
+div{
+    text-align: center;
+}
+
+div a:link{
+    color:red;
+}
+
+div a:visited{
+    color: green;
+}
+
+div a:hover{
+    color:orchid;
+}
+
+div a:active{
+    color: yellow;
+}
+
+section{
+    font-size: 24px;
+}
+
+section :first-child{
+    color:darkcyan;
+}
+
+section :last-child{
+    color: tomato;
+}
+
+section :nth-child(3){
+    color:chartreuse;
+}
+
+section :nth-child(9){
+    color:blueviolet;
+}
+
+section :not(p){
+    background-color: yellow;
+}
+
+/* p:nth-of-type(even){
+    background: blue;
+}
+
+p:nth-of-type(odd){
+    background: green;
+} */
+
+p:nth-of-type(3n + 3){
+    color: aqua;
+}
+
+p:only-child{
+    background: green;
+}
