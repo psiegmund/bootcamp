@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Maven+Pro:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background: url("../img/008.jpeg") center / cover no-repeat;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+} */
+
+/*  
+Assets:
+font-family: 'Gilda Display', serif;
+font-family: 'Maven Pro', sans-serif;
+farbe: #333, #fff, #3dc8d5, #8507e1, #ccc
+*/
+
+/* ===================
+GENERAL STYLE 
+======================*/
+
+html{
+    font-size: 10px;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+a{
+    color: #ccc;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+/* ===================
+HEADER STYLE 
+======================*/
+
+header{
+    background: #333;
+    height: 100vh;
+}
+
+header section{
+    padding: 1em;
+}
+
+header h1{
+    color: #ccc;
+    letter-spacing: 0.2em;
+}
+
+header h2{
+    font-size: 4rem;
+}
+
+header p{
+    font-size: 1.5rem;
+}
+
+header article{
+    text-align: center;
+    color: #ccc;
+    background: linear-gradient(45deg, #8507e1 30%, blue, #3dc8d5);
+    height: 200px;
+    width: 200px;
+    margin: 30vh auto 10vh auto;
+    padding: 3vh;
+}
+header article:hover{
+    text-align: center;
+    color: #ccc;
+    background: linear-gradient(45deg, #3dc8d5 30%, blue, #8507e1);
+    height: 200px;
+    width: 200px;
+    margin: 30vh auto 10vh auto;
+    padding: 3vh;
+}
+
+header div nav{
+    text-align: right;
+    margin-right: 3vw;
+    margin-top: 25vmin;
+}
+
+header div nav ul li{
+    padding: 5px;
+}
+
+
+/* ===================
+MAIN STYLE 
+======================*/
+
+main{
+    background: url("../img/PROJECTS.svg");
+    background-position: 10vw 0vh;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100vw;
+}
+
+main h2{
+    font-size: 3rem;
+    font-family: 'Gilda Display', serif;
+    text-align: left;
+    margin-left: 10vw;
+}
+
+main div{
+    margin-top: 25vh;
+}
+
+#stuffWeDid{
+    margin: 10vh 10vw;
+    padding-top: 10vh;
+    text-align: left;
+    font-size: 2rem;
+}
+
+main section article{
+    /* margin: 10px; */
+}
+
+main section img{
+    width: 80vw;
+    margin: 20vh 0 1vh 0;
+    border-radius: 10px;
+}
+
+main section article p{
+    margin-left: 10vw;
+    font-size: 1.6rem;
+    text-align: left;
+}

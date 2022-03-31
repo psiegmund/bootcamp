@@ -6,23 +6,6 @@
     box-sizing: border-box;
 }
 
-/* FONTS
-font-family: 'Roboto', sans-serif;
-*/
-
-
-/* 
-logo: DailyUI&UX
-content: 
-404
-Page not found
-I tried to catch some fog but I mist
-back to home
-Assets:
-Farben: #565c73, #CDD4DE
-
-*/
-
 body{
     background: url("../img/008.jpeg") center / cover no-repeat;
     text-align: center;
